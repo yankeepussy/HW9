@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>11</title>
+  </head>
+  <body>
+    <div class="form">
+      <form id="tg">
+        <div class="label">
+          <label for="">Как тебя зовут?</label>
+          <input type="text" name="name" maxlength="30" />
+        </div>
+        <div class="label">
+          <label for="">Когда ты родился?</label>
+          <input type="date" name="date" />
+        </div>
+        <div class="label">
+          <label for="">Номер телефона</label>
+          <input type="tel" name="tel" value="+998" maxlength="13" />
+        </div>
+        <div class="label">
+          <label for="">Сколько у тебя друзей?</label>
+          <input type="number" name="friends" min="0" max="3" />
+        </div>
+        <div class="label">
+          <label for="">Сколько сантиметров?</label>
+          <input type="number" name="penis" min="10" max="30" />
+        </div>
+        <div class="label">
+          <label for="">Любимая актриса с pornhub</label>
+          <select name="ph" id="">
+            <option value="Luxury girl">Luxury girl</option>
+            <option value="Eva Elfie">Eva Elfie</option>
+            <option value="Gabbie Carter">Gabbie Carter</option>
+            <option value="Cory Chase">Cory Chase</option>
+            <option value="Sweetie Fox">Sweetie Fox</option>
+          </select>
+        </div>
+        <div class="label">
+          <label for="">Какой у тебя фетиш?</label>
+
+          <input type="text" name="fetish" />
+        </div>
+        <div class="label">
+          <label for="">Кофе или чай?</label>
+          <select name="kc" id="">
+            <option value="Кофе">Кофе</option>
+            <option value="Чай">Чай</option>
+          </select>
+        </div>
+        <div class="label">
+          <label for="">Любимый цвет</label>
+          <input type="text" name="color" />
+        </div>
+        <div class="label">
+          <label for="">Дрочил сегодня?</label>
+          <input type="radio" name="yn" value="Да" />
+          <label for="">да </label>
+          <input type="radio" name="yn" value="Нет" disabled />
+          <label>нет </label>
+        </div>
+
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

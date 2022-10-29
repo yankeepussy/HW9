@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+}
+.label{
+    margin: 15px;
+}
+.form{
+    border: 3px solid red;
+    border-radius: 18px;
+}
+input{
+    background-color: rgb(255, 125, 147);
+}
+select{
+    background-color: rgb(255, 125, 147);
+}
+button{
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
